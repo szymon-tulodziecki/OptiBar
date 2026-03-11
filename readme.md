@@ -1,6 +1,6 @@
 # Optymalizacja Receptury Batona ALGO-BAR
 
-![ALGO-BAR](algobar_clean.png)
+![ALGO-BAR](img/algobar.png)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2023+-e16737?style=for-the-badge&logo=mathworks&logoColor=white)
