@@ -149,7 +149,6 @@ python gui_algobar.py         # uruchamia GUI
 ├── hs_algobar.py           algorytm Harmony Search (Python + NumPy)
 ├── gui_algobar.py          interfejs graficzny (PyQt5)
 ├── algobar_hs.pdf          opis matematyczny algorytmu (LaTeX)
-├── algobar_hs.tex          źródło dokumentacji matematycznej
 ├── receptury.csv           10 000 losowych receptur
 ├── hm_inicjalizacja.csv    pamięć harmonii — rozwiązania startowe
 └── wynik_hs.json           wynik optymalizacji HS
