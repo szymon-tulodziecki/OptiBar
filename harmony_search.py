@@ -229,13 +229,15 @@ def zapisz_pamiec_csv(PamiecH: np.ndarray, KosztyH: np.ndarray, sciezka: str):
 # ─────────────────────────────────────────────────────────────
 # ARGUMENTY CLI
 # ─────────────────────────────────────────────────────────────
+
+ilosc_improwizacji = 10_000
 def parsuj_arg():
     p = argparse.ArgumentParser(description="ALGO-BAR Harmony Search (pure Python)")
     p.add_argument("--pamiec",      type=int,   default=20,     help="Rozmiar pamięci harmonii (HMS)")
     p.add_argument("--wsp_pamiec",  type=float, default=0.90,   help="Współczynnik pamięci HMCR (0-1)")
     p.add_argument("--wsp_korekta", type=float, default=0.30,   help="Współczynnik korekty PAR (0-1)")
     p.add_argument("--szer_pasmo",  type=float, default=0.05,   help="Szerokość pasma BW")
-    p.add_argument("--improwizacje",type=int,   default=10_000, help="Liczba improwizacji (NI)")
+    p.add_argument("--improwizacje",type=int,   default=ilosc_improwizacji, help="Liczba improwizacji (NI)")
     p.add_argument("--ziarno",      type=int,   default=42,     help="Ziarno losowości")
     p.add_argument("--output",      type=str,   default="wynik_hs.json", help="Plik wyjściowy JSON")
     return p.parse_args()
