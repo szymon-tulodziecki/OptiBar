@@ -140,6 +140,8 @@ python gui_algobar.py         # uruchamia GUI
 ![img_2](img/2.png) 
 ![img_3](img/3.png)
 ![img_4](img/4.png) 
+![schemat](img/schemat.png) 
+
 ---
 
 ### 8. Struktura plików
